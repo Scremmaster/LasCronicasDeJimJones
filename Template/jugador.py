@@ -34,19 +34,19 @@ class Player(pygame.sprite.Sprite):
         sprite_sheet = SpriteSheet(ruta)
         
         # Carga de todos los sprite de la imagen hacia la derecha.
-        imagen = sprite_sheet.obtener_imagen(0, 0, 127, 170)
+        imagen = sprite_sheet.obtener_imagen(31, 50, 86, 149)
         self.jugador_frame_der.append(imagen)
-        imagen = sprite_sheet.obtener_imagen(66, 0, 66, 90)
+        imagen = sprite_sheet.obtener_imagen(140, 50, 87,141 )
         self.jugador_frame_der.append(imagen)
-        imagen = sprite_sheet.obtener_imagen(132, 0, 67, 90)
+        imagen = sprite_sheet.obtener_imagen(244, 50, 70, 141)
         self.jugador_frame_der.append(imagen)
-        imagen = sprite_sheet.obtener_imagen(0, 93, 66, 90)
+        imagen = sprite_sheet.obtener_imagen(348, 44, 48, 155)
         self.jugador_frame_der.append(imagen)
-        imagen = sprite_sheet.obtener_imagen(66, 93, 66, 90)
+        imagen = sprite_sheet.obtener_imagen(445, 45, 60, 155)
         self.jugador_frame_der.append(imagen)
-        imagen = sprite_sheet.obtener_imagen(132, 93, 72, 90)
+        imagen = sprite_sheet.obtener_imagen(549, 50, 77, 155)
         self.jugador_frame_der.append(imagen)
-        imagen = sprite_sheet.obtener_imagen(0, 186, 70, 90)
+        imagen = sprite_sheet.obtener_imagen(30, 230, 78, 139)
         self.jugador_frame_der.append(imagen)
 
         # # Carga de todos los sprite de la imagen hacia la derecha y la rotamos.
