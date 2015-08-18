@@ -17,7 +17,7 @@ def main():
     pygame.display.set_caption("The Chornicles of Jim Jones")
 
     # Creamos al jugador con la imagen p1_walk.png
-    jugador_principal = Player("imagenes/p1_walk.png")
+    jugador_principal = Player("imagenes/spritesdimensiones.png")
 
     # Creamos todos los niveles del juego
     lista_niveles = []
