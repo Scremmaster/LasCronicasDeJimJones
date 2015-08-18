@@ -35,6 +35,7 @@ class Player(pygame.sprite.Sprite):
         
         # Carga de todos los sprite de la imagen hacia la derecha.
         imagen = sprite_sheet.obtener_imagen(31, 50, 86, 149)
+        
         self.jugador_frame_der.append(imagen)
         imagen = sprite_sheet.obtener_imagen(140, 50, 87,141 )
         self.jugador_frame_der.append(imagen)
